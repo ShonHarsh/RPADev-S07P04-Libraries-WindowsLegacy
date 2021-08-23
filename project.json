@@ -1,0 +1,55 @@
+{
+  "name": "RPADev-S07P04-Libraries",
+  "description": "\r\nPractice 4 - Libraries\r\n\r\nUpdating a Library and using the updated Library\r\n\r\nUsing the sample library created in the Libraries Video Demo:\r\n\r\n1. Create two new components for the library which will:\r\n\r\nDownload all invoices – and save the to a sample xlsx file called “All Invoices.xlsx”\r\nDownload invoices of a certain vendor tax ID and save them to a sample xlsx file called “All invoices for” + <vendorTaxID> “.xlsx”. The vendor tax ID must be given via user input.\r\n2. Create a workflow that l",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.5]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "fc39cf40-b79a-4211-9c8e-a498b3826382",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
