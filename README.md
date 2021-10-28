@@ -8,6 +8,17 @@ This project is my solution in **C#** to the **Libraries** practice found in sec
 
 After making a pull request or downloading the project, open the Main.xaml in UiPath Studio.  The robot can be run with the play button in the ribbon and the result can be seen in output pane.
 
+#### PRACTICE REQUIREMENTS
+
+###### **Updating a Library and using the updated Library**
+
+Using the sample library created in the Libraries Video Demo:
+
+1. Create two new components for the library which will:
+   - Download all invoices – and save the to a sample xlsx file called “All Invoices.xlsx”
+   - Download invoices of a certain vendor tax ID and save them to a sample xlsx file called “All invoices for” + <vendorTaxID> “.xlsx”. The vendor tax ID must be given via user input.
+2. Create a workflow that lets the user choose between downloading all work items, downloading all invoices, or downloading only the invoices that belong to a certain tax ID inputted by the user
+
 ### Details
 
 **Course:** UiPath - RPA Developer Foundation
