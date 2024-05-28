@@ -1,5 +1,6 @@
 {
-  "name": "RPADev-S07P04-Libraries",
+  "name": "RPADev-S07P04-Libraries-WindowsLegacy",
+  "projectId": "0aa97869-da2f-437f-a880-2ccca2cd7426",
   "description": "\r\nPractice 4 - Libraries\r\n\r\nUpdating a Library and using the updated Library\r\n\r\nUsing the sample library created in the Libraries Video Demo:\r\n\r\n1. Create two new components for the library which will:\r\n\r\nDownload all invoices – and save the to a sample xlsx file called “All Invoices.xlsx”\r\nDownload invoices of a certain vendor tax ID and save them to a sample xlsx file called “All invoices for” + <vendorTaxID> “.xlsx”. The vendor tax ID must be given via user input.\r\n2. Create a workflow that l",
   "main": "Main.xaml",
   "dependencies": {
@@ -15,16 +16,21 @@
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -37,7 +43,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
