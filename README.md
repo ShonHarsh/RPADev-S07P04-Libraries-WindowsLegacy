@@ -1,4 +1,4 @@
-![UiPath](https://shonharsh.github.io/curriculum-vitae/images/banner-uipath.png)
+![UiPath](https://shonharsh.github.io/curriculum-vitae/Images/Banner-UiPath-01.png)
 # //Project Pending - I am still updating all of the projects for the RPA Developer Foundation.  I do not have the source files and this practice is retired.  I am waiting to hear about the files but if that fails I will delete this repository.
 https://acme-test.uipath.com/internal/download
 # S07P04 Libraries
@@ -44,6 +44,8 @@ A standard UiPath, Studio to Orchestrator cloud setup is the base of operation. 
 1. An Orchestrator connection - Visit https://cloud.uipath.com/ and authenticate or sign up.
 2. [UiPath Studio](https://www.uipath.com/product/studio) is used to run the robot.  Note that Studio Web can be used directly in Orchestrator but I recommend installing the Studio IDE application.
 
+[![UiPath Setup Guide](https://shonharsh.github.io/curriculum-vitae/Images/Title-UiPath-Setup-Guide.png)](https://github.com/ShonHarsh/UiPath-SetupGuide)
+
 ### Git Notes
 
 Clone the project to develop or change it.
@@ -54,7 +56,7 @@ git clone https://github.com/ShonHarsh/RPADev-S07P04-Libraries-WindowsLegacy
 
 ### Links
 - [UiPath Automation Platform](https://www.uipath.com/)
-- [UiPath Studio](https://www.uipath.com/product/studio)- [Atom Editor (Used for all my Readme files)](https://atom-editor.cc/)
+- [UiPath Studio](https://www.uipath.com/product/studio)- [Pulsar](https://pulsar-edit.dev/) (Atom Successor) - Used for all my README.md files
 - [Shon Harsh Website 127.0.0.1](https://shonharsh.github.io/curriculum-vitae/index.html)
 - [This.GitHub](https://github.com/shonharsh)
 - [LinkedIn](https://www.linkedin.com/in/shonharsh/)
